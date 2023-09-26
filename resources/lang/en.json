@@ -1,0 +1,22 @@
+{
+    "title": "Title",
+    "header_links": [
+        {
+            "name": "Advantages",
+            "url": "https://test.com"
+        },
+        {
+            "name": "Product",
+            "url": "https://test.com"
+        },
+        {
+            "name": "FAQ",
+            "url": "https://test.com"
+        },
+        {
+            "name": "Reviews",
+            "url": "https://test.com"
+        }
+    ],
+    "header_button_text": "Get app"
+}

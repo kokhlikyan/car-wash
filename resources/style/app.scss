@@ -1,0 +1,55 @@
+@import "imports";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $black;
+}
+
+.container {
+    max-width: 100%;
+    width: 1320px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 168px;
+    flex-grow: 1;
+
+}
+
+.btn {
+    padding: 16px 32px;
+    background: $blue;
+    border: none;
+    border-radius: 100px;
+    @include text(16px);
+    color: $black;
+    cursor: pointer;
+    -webkit-transition: all, 0.5s;
+    -moz-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    transition: all, 0.5s;
+
+    &:hover {
+        background-image:
+            linear-gradient(67deg, $blue_gradient_first 12.23%, $blue_gradient_second 94.12%);
+    }
+}

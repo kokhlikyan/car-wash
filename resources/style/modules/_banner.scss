@@ -1,0 +1,24 @@
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 80px;
+    border-radius: 20px;
+    background-image: linear-gradient(67deg, #D9E6F9 12.23%, #54B0FB 94.12%);
+    gap: 62px;
+
+    &__title{
+        @include title(56px);
+        color: $black;
+        margin-bottom: 32px;
+    }
+    &__desc{
+        @include text(18px);
+        color: $black;
+        margin-bottom: 64px;
+    }
+    &__buttons{
+        display: flex;
+        gap: 32px;
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Title hy",
+    "header_links": [
+        {
+            "name": "Առավելությունները",
+            "url": "https://test.com"
+        },
+        {
+            "name": "Պռոդուկտ",
+            "url": "https://test.com"
+        },
+        {
+            "name": "FAQ",
+            "url": "https://test.com"
+        },
+        {
+            "name": "Կարծիքներ",
+            "url": "https://test.com"
+        }
+    ],
+    "header_button_text": "Ստանալ հավելվածը"
+}

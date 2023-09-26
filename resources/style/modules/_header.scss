@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+
+    .header__menu{
+        display: flex;
+        align-items: center;
+        gap: 113px;
+    }
+    .header__ul{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    .header__link{
+        @include text(16);
+        color: $white;
+    }
+    .header__buttons{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    .header__change_local{
+        @include text(16);
+        font-weight: 600;
+        color: $white;
+    }
+}

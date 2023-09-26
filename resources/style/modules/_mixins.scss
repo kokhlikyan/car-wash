@@ -1,0 +1,15 @@
+@mixin title($size) {
+    font-family: 'Arm Hmk Imagine Square';
+    font-size: $size;
+    line-height: $line_height_gte_24;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin text($size) {
+    font-family: 'Montserrat arm';
+    font-size: $size;
+    line-height: $line_height_lie_24;
+    font-style: normal;
+    font-weight: 400;
+}
